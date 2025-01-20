@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 from openai import OpenAI
+from streamlit_chat import message
 
 # Load the trained model and preprocessing tools
 model = joblib.load("rf_model.pkl")
